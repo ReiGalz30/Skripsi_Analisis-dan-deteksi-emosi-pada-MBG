@@ -3,3 +3,6 @@ scikit-learn
 joblib
 Sastrawi
 nltk
+pandas
+plotly
+streamlit-option-menu
