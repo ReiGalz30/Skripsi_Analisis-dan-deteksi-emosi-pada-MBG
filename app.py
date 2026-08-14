@@ -17,6 +17,7 @@ st.set_page_config(page_title="Sistem Analisis Emosi MBG", page_icon="📊", lay
 @st.cache_resource
 def download_nltk_data():
     nltk.download('punkt', quiet=True)
+    nltk.download('punkt_tab', quiet=True)
     nltk.download('stopwords', quiet=True)
 
 @st.cache_resource
